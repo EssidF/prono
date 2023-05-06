@@ -1,0 +1,11 @@
+.home{
+    flex: 4;
+    background-color: lightgray;
+}
+
+.dashbordMiddlepart{
+    display: flex;
+}
+.container{
+    display: flex;
+}

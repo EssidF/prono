@@ -1,0 +1,140 @@
+.base-container {
+    width:100%;
+    display:  flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    right: 0;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .image{
+    border-radius: 50%;
+    border: 2px solid#e9e329;
+    box-sizing: border-box;
+  }
+
+  .header{
+   
+    width: 488px;
+    height: 56px;
+   
+    
+    font-family:  sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: rgba(0, 0, 0, 0.46);
+    margin-bottom: 100px;
+    
+  }
+
+  .email{
+
+    font-family: Rokkitt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    color: #ef360d;
+    text-align: left;
+  }
+
+  .password{
+    
+    font-family: Rokfkitt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: left;
+    color:#ef360d;
+  }
+
+  .passwordInput{
+   
+    width: 539px;
+    height: 52px;
+    left: 129px;
+    top: 523px;
+    
+    background: #DCDDE1;
+    border-radius: 10px;
+    border: none;
+  }
+  .emailInput {
+   
+    width: 539px;
+    height: 52px;
+    left: 129px;
+    top: 387px;
+    
+    background: #DCDDE1;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .checkBox{
+    margin: 20px 0px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .rememberMe{
+    width: 86px;
+    height: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    color: #718093;
+  }
+
+  .sublog{
+    width: 257px;
+    height: 56px;
+    left: 270px;
+    top: 704px;
+    background: #06c348;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .btn-div{
+    width: 100%;
+  }
+  
+  .label-div{
+    width: 100%;
+    text-align: left;
+    margin: 10px 0px;
+  }
